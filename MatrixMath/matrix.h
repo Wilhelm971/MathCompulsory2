@@ -2,7 +2,6 @@
 #include <vector>
 
 
-
 class Matrix
 {
 
@@ -47,3 +46,6 @@ private:
 	int m_Row, m_Column;
 	double* m_Data;
 };
+
+Matrix SolveMatrix(Matrix& A, Matrix& b);
+

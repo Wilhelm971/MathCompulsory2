@@ -3,11 +3,6 @@
 
 
 
-Matrix SolveMatrix(Matrix& A, Matrix& b)
-{
-	Matrix x = A.Inverse().Multiply(b);
-	return x;
-}
 
 
 std::vector <double> SetPFunction(double x1, double x2, double x3, double x4)

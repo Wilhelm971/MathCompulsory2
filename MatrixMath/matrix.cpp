@@ -1,6 +1,8 @@
 #include "matrix.h"
 #include <iostream>
 
+
+
 // Constructors and destructors
  Matrix::Matrix(int row, int col) : m_Row(row), m_Column(col)
  {
@@ -266,5 +268,20 @@
 		 }
 	 }
  }
+
+
+
+
+
+
+
+
+
+ Matrix SolveMatrix(Matrix& A, Matrix& b)
+ {
+	 Matrix x = A.Inverse().Multiply(b);
+	 return x;
+ }
+
 
 
